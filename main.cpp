@@ -13,5 +13,13 @@ int main() {
 
     Point* mid = p1->midpoint(p2);
     mid->print();
+
+    // if you want to see object size
+    // use sizeof() function
+    // ex. sizeof(x) where x is a declared variable
+
+    // if you want to see alignment size
+    // use alignof() function
+    // ex. alignof(int) where int is a data type
     return 0;
 }
