@@ -27,7 +27,7 @@ struct Point {
     double distance(Point other) {
         int dx = other.x - this->x;
         int dy = other.y - this->y;
-        return sqrt(dx * dx - dy * dy);
+        return sqrt(dx * dx + dy * dy);
     }
 
     void print() {
